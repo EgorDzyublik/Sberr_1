@@ -6,9 +6,11 @@
 
 {% block content %}
 
-    <h2 class="input_1">Загрузить файл(txt, json)</h2>
-    <a href="/result"><button class="btn">Провести анализ</button></a>
-    <input type="file" class="addfile" accept=".txt,.json">
-    <img src="static/myblog/img/folder.png" alt=""></body>
+    <h1 class="input_1">Загрузить файл (xlsx, csv, json)</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit" class="">Пуск</button>
+    </form>
 
 {% endblock %}
