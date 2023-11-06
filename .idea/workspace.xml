@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c572b9d7-11d4-4dc3-ae8f-dd4a5e7d9011" name="Changes" comment="First">
-      <change afterPath="$PROJECT_DIR$/myblog/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/progr/alg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/progr/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myblog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myblog/static/myblog/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/templates/myblog/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/templates/myblog/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/static/myblog/img/back.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myblog/templates/myblog/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/templates/myblog/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myblog/templates/myblog/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/templates/myblog/result.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/urls.py" afterDir="false" />
@@ -114,7 +113,8 @@
       <workItem from="1698998981013" duration="1985000" />
       <workItem from="1699006668056" duration="9739000" />
       <workItem from="1699033827255" duration="29000" />
-      <workItem from="1699177405740" duration="16495000" />
+      <workItem from="1699177405740" duration="23779000" />
+      <workItem from="1699257443844" duration="7563000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <option name="closed" value="true" />

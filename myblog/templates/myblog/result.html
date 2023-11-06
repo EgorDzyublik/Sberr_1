@@ -6,5 +6,10 @@
 
 {% block content %}
     <h1 class='input_1'>Результаты</h1>
-    <h2>Обнаружено 500 рерайт-групп</h2>
+    <h2>Обнаружено {{ amount }} рерайт-групп</h2>
+    {% for el in result %}
+        <div>
+            <h3>Группа №{{ forloop.counter }}: {{ el }}</h3>
+        </div>
+    {% endfor %}
 {% endblock %}

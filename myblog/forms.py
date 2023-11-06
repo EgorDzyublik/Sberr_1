@@ -11,8 +11,3 @@
 #                 'class': 'addfile'
 #             })
 #         }
-
-from django import forms
-
-class InputForm(forms.Form):
-    docfile = forms.FileField()

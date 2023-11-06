@@ -5,12 +5,14 @@
 {% endblock %}
 
 {% block content %}
-
-    <h1 class="input_1">Загрузить файл (xlsx, csv, json)</h1>
-    <form method="post" enctype="multipart/form-data">
-        {% csrf_token %}
-        {{ form }}
-        <button type="submit" class="">Пуск</button>
-    </form>
+        <h1 class="input_1">Загрузить файл (xlsx, csv, json)</h1>
+        <img src="static/myblog/img/folder.png" alt="" class="folder">
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="parent">
+                <input type="file" name="document" class="addfile">
+            </div>
+            <button type="submit" class="button_2">Пуск</button>
+        </form>
 
 {% endblock %}
