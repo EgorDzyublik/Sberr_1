@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c572b9d7-11d4-4dc3-ae8f-dd4a5e7d9011" name="Changes" comment="First">
-      <change afterPath="$PROJECT_DIR$/media/additional.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/alg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/sample_test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/progr/alg.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/progr/functions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/static/myblog/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/templates/myblog/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/templates/myblog/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/templates/myblog/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/templates/myblog/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/templates/myblog/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/templates/myblog/result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/templates/myblog/waste.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/sample_test" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +109,7 @@
       <workItem from="1699381105562" duration="145000" />
       <workItem from="1699385555170" duration="133000" />
       <workItem from="1699388336699" duration="1454000" />
-      <workItem from="1699465141923" duration="2489000" />
+      <workItem from="1699465141923" duration="2551000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <option name="closed" value="true" />
