@@ -11,8 +11,6 @@ aside {
     top: 50%;
     font-weight: bold;
     font-family: 'Roboto Flex Variable';
-    -webkit-text-stroke-width: 0px;
-    -webkit-text-stroke-color: #ffffff;
 }
 
 aside h1 {
@@ -25,13 +23,14 @@ aside h1 {
 main {
     width: 100%;
     text-align: center;
-    font-family: Roboto "Felix Titling";
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
 main .input_1 {
     position: relative;
-    top: 10vh;
-    opacity: 0;
+    top: 7vh;
 }
 
 main .button_1 {
@@ -41,8 +40,7 @@ main .button_1 {
 
 main h2 {
     position: relative;
-    top: 100px;
-    opacity: 0;
+    top: 11vh;
 }
 
 main .addfile {
@@ -52,7 +50,6 @@ main .addfile {
     top: 375px;
     display: inline-block;
     opacity: 0;
-    background-color: red;
 }
 
 main .folder {
@@ -90,4 +87,20 @@ main .button_2:hover {
 
 .parent {
     margin-right: 15vh;
+}
+
+.results {
+    font-family: Roboto;
+    text-align: center;
+    width: 100%;
+    margin-top: 17vh;
+    font-size: medium;
+
+}
+
+.group {
+    height: 5vh;
+    font-family: Roboto;
+    text-align: center;
+    margin-bottom: 2vh;
 }

@@ -5,17 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c572b9d7-11d4-4dc3-ae8f-dd4a5e7d9011" name="Changes" comment="First">
-      <change afterPath="$PROJECT_DIR$/myblog/progr/alg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/progr/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/additional.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/alg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/sample_test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/progr/alg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/progr/functions.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myblog/static/myblog/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/static/myblog/img/back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/templates/myblog/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/templates/myblog/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myblog/templates/myblog/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/templates/myblog/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myblog/templates/myblog/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/templates/myblog/result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/templates/myblog/waste.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myblog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +115,13 @@
       <workItem from="1699006668056" duration="9739000" />
       <workItem from="1699033827255" duration="29000" />
       <workItem from="1699177405740" duration="23779000" />
-      <workItem from="1699257443844" duration="7563000" />
+      <workItem from="1699257443844" duration="8132000" />
+      <workItem from="1699289432230" duration="7582000" />
+      <workItem from="1699366432028" duration="2003000" />
+      <workItem from="1699381105562" duration="145000" />
+      <workItem from="1699385555170" duration="133000" />
+      <workItem from="1699388336699" duration="1454000" />
+      <workItem from="1699465141923" duration="2489000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <option name="closed" value="true" />
