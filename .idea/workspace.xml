@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c572b9d7-11d4-4dc3-ae8f-dd4a5e7d9011" name="Changes" comment="First">
-      <change beforePath="$PROJECT_DIR$/media/sample_test" beforeDir="false" />
-    </list>
+    <list default="true" id="c572b9d7-11d4-4dc3-ae8f-dd4a5e7d9011" name="Changes" comment="First" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,6 +108,7 @@
       <workItem from="1699385555170" duration="133000" />
       <workItem from="1699388336699" duration="1454000" />
       <workItem from="1699465141923" duration="2551000" />
+      <workItem from="1699470182710" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <option name="closed" value="true" />
