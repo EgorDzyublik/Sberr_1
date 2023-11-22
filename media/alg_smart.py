@@ -4,14 +4,7 @@ from media.functions import is_rewrite_smart, preprocessing
 from media.additional import NpEncoder
 
 
-with open('media/dictionary.json', encoding="utf-8") as file1:
-    sin_dict = json.load(file1)
-sin_dict=list(sin_dict.items())
-sin_dict_df=pd.DataFrame(sin_dict[3][1])
 
-sin_dict_df=sin_dict_df.drop(columns=['antonyms', 'definition'])
-sin_dict_df=sin_dict_df.dropna()
-sin_dict_df['name']=sin_dict_df['name'].apply(lambda x: x.lower())
 
 
 #функция, которая объединяет текста по рерайт-группам

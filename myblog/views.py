@@ -74,7 +74,7 @@ def result_1(request):
     with open('media/sample_test', encoding="utf-8") as sber_file:
         f = json.load(sber_file)
 
-    result = alg_first.groups_alg1(f)
+    result = groups_alg1(f)
     return render(request,'myblog/result.html', {'result': result})
 
 def result_2(request):
@@ -82,7 +82,7 @@ def result_2(request):
     with open('media/sample_test', encoding="utf-8") as sber_file:
         f = json.load(sber_file)
 
-    result = alg_clustering.groups_clusters(f)
+    result = groups_clusters(f)
     return render(request,'myblog/result.html', {'result': result})
 
 def result_3(request):
@@ -90,15 +90,24 @@ def result_3(request):
     with open('media/sample_test', encoding="utf-8") as sber_file:
         f = json.load(sber_file)
 
-    result = alg_metrics_linear_model.groups_metrics(f)
+    result = groups_metrics(f)
     return render(request,'myblog/result.html', {'result': result})
 
 def result_4(request):
 
     with open('media/sample_test', encoding="utf-8") as sber_file:
         f = json.load(sber_file)
+    with open('media/dictionary.json', encoding="utf-8") as file1:
+        sin_dict = json.load(file1)
+    sin_dict = list(sin_dict.items())
+    sin_dict_df = pd.DataFrame(sin_dict[3][1])
 
-    result = alg_smart.groups_alg_smart(f)
+    sin_dict_df = sin_dict_df.drop(columns=['antonyms', 'definition'])
+    sin_dict_df = sin_dict_df.dropna()
+    sin_dict_df['name'] = sin_dict_df['name'].apply(lambda x: x.lower())
+
+
+    result = groups_alg_smart(f, sin_dict_df)
     return render(request,'myblog/result.html', {'result': result})
 
 def result_5(request):
@@ -106,5 +115,5 @@ def result_5(request):
     with open('media/sample_test', encoding="utf-8") as sber_file:
         f = json.load(sber_file)
 
-    result = alg_style.groups_alg_author_style(f)
+    result = groups_alg_author_style(f)
     return render(request,'myblog/result.html', {'result': result})
